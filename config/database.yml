@@ -73,12 +73,14 @@ test:
 # the values provided in this file. Alternatively, you can specify a connection
 # URL environment variable explicitly:
 #
-#   production:
-#     url: <%= ENV['MY_APP_DATABASE_URL'] %>
+   production:
+    url: <%= ENV['DATABASE_URL'] %>
 #
 # Read https://guides.rubyonrails.org/configuring.html#configuring-a-database
 # for a full overview on how database connection configuration can be specified.
 #
-production:
-  <<: *default
-  url: <%= ENV ['DATABASE_URL'] %>
+# production:
+#   <<: *default
+#   database: Ruby_Blog_Project_4_Backend_production
+#   username: Ruby_Blog_Project_4_Backend
+#   password: <%= ENV['RUBY_BLOG_PROJECT_4_BACKEND_DATABASE_PASSWORD'] %>

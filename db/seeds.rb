@@ -8,4 +8,4 @@
 
 # user = User.create(username: "test", password: "test")
 
-# post = Post.create(user_id: "4", title: "Cheeseburger", author: "Greg -Writer", body: "lorem ipsum and lets see if seeding this works or i might have to create a database")
+# post = Post.create(user_id: "1", title: "test", author: "test", body: "test")
